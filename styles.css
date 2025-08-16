@@ -1,0 +1,96 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling with Box Model */
+header {
+    background-color: #333;   /* Content background */
+    color: white;             /* Text color */
+    padding: 20px;            /* Inside space (padding) */
+    border: 5px solid #555;   /* Border around header */
+    margin: 15px;             /* Outside space (margin) */
+    text-align: center;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section styling with Box Model */
+section {
+    padding: 20px;
+    margin: 15px;
+    border: 2px solid #ccc;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+/* Image styling with Box Model */
+figure {
+    text-align: center;
+    border: 2px solid #666;
+    padding: 15px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+/* Form styling with Box Model */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #aaa;
+}
+label {
+    margin-top: 10px;
+}
+input, button {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #666;
+}
+button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer styling with Box Model */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 3px solid #555;
+}
